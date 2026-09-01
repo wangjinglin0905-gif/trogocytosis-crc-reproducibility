@@ -1,0 +1,50 @@
+{
+  "release": "DepMap Public 26Q1",
+  "seed": 20260901,
+  "two_d_lines_loaded": 1208,
+  "crc_lines_complete": 63,
+  "genes_unique_retained": 18531,
+  "common_essential_genes_pre_pca": 1179,
+  "common_essential_variable_genes": 1179,
+  "adjustment_covariates": [
+    "global median",
+    "global MAD",
+    "common-essential PC1-PC5"
+  ],
+  "results": {
+    "crc_raw": {
+      "n": 63,
+      "rho": -0.08779761904761905,
+      "p": 0.49382345824172286
+    },
+    "crc_adjusted": {
+      "n": 63,
+      "rho": -0.17505150850526893,
+      "permutation_p": 0.1613838616138386,
+      "bootstrap_ci95": [
+        -0.466105872359286,
+        0.09265370227048318
+      ]
+    },
+    "non_crc_raw": {
+      "n": 1145,
+      "rho": -0.026819922115882244,
+      "p": 0.36456529912078645
+    },
+    "all_2d_raw": {
+      "n": 1208,
+      "rho": -0.03350763614398783,
+      "p": 0.2445365387537571
+    },
+    "organoid_direction": -0.492595177156636,
+    "replication_success": false
+  },
+  "input_sha256": {
+    "gene_effect": "e610a4cefb13a82b5b256b47eb08b63ff14843f8dbd0fb164bc0a32688e5b89e",
+    "model": "ea4e0b2a3bc806f81df62689a5ae75f1a100135727a3d7b8a4c7ccc8815183f8",
+    "organoid_qc": "2dd41e7995c4ebe6e2dd302fb2025354d1a028e99c7ddcf4ed1b099d838d0aba"
+  },
+  "python": "3.12.13",
+  "numpy": "2.5.2",
+  "pandas": "2.3.3"
+}

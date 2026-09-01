@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "root_name": "trogocytosis-crc-reproducibility",
+  "scanned_files": 220,
+  "total_bytes": 60051748,
+  "largest_files": [
+    {
+      "path": "baseline/v7/analysis/organoid/organoid_crc_best_library_screen.csv.gz",
+      "bytes": 17978688
+    },
+    {
+      "path": "figures/final/Fig3_SCD_codependency_v8_1.svg",
+      "bytes": 14366297
+    },
+    {
+      "path": "analysis/matched_null_gse178341/gse178341_gene_matching_features.tsv",
+      "bytes": 2899490
+    },
+    {
+      "path": "baseline/v7/analysis/gse178341_recalculation/gse178341_patient_pseudobulk_counts.npz",
+      "bytes": 2446657
+    },
+    {
+      "path": "baseline/v7/analysis/organoid/organoid_full_gene_dependency_rank.csv",
+      "bytes": 2046765
+    },
+    {
+      "path": "figures/source_data/Fig3ab_SCD_codependency_v8_1.csv",
+      "bytes": 1529466
+    },
+    {
+      "path": "baseline/v7/analysis/scd_codependency_qc/scd_codependency_qc_adjusted.csv",
+      "bytes": 1435695
+    },
+    {
+      "path": "baseline/v7/analysis/depmap_26Q1/depmap_crc_genome_dependency_rank.csv",
+      "bytes": 1235691
+    },
+    {
+      "path": "figures/source_data/Fig7b_matching_balance_null_v8_1.csv",
+      "bytes": 1174875
+    },
+    {
+      "path": "figures/final/Fig3_SCD_codependency_v8_1.pdf",
+      "bytes": 980499
+    }
+  ],
+  "required_files_checked": [
+    ".zenodo.json",
+    "CITATION.cff",
+    "DATA_AVAILABILITY.md",
+    "LICENSE",
+    "LICENSE_DATA.md",
+    "README.md",
+    "VERSION",
+    "provenance/external_sources.tsv",
+    "provenance/figure_source_map.tsv"
+  ],
+  "errors": [],
+  "warnings": [],
+  "audit_script_sha256": "ab58690f8ce0c20d6cd670cc7788d650bb85d361df658c53e46e03210cb298ac"
+}

@@ -1,0 +1,53 @@
+cff-version: 1.2.0
+message: "If you use this code or its processed derivatives, please cite this software release and the associated manuscript."
+title: "Trogocytosis-CRC reproducibility package"
+type: software
+version: 1.0.0
+date-released: 2026-09-02
+repository-code: "https://github.com/wangjinglin0905-gif/trogocytosis-crc-reproducibility"
+url: "https://github.com/wangjinglin0905-gif/trogocytosis-crc-reproducibility"
+abstract: >-
+  Reproducibility package for functional dependency screening and calibrated
+  transcriptomic inference of trogocytosis-related hypotheses in colorectal
+  cancer. It contains portable analysis scripts, processed derivatives,
+  quality-control records, source-data tables and final figures.
+authors:
+  - family-names: Wang
+    given-names: Jinglin
+    orcid: "https://orcid.org/0000-0002-7389-1022"
+    affiliation: "The Affiliated Hospital of Guizhou Medical University; Guizhou Provincial People's Hospital"
+  - family-names: Sun
+    given-names: Pan
+    affiliation: "The Affiliated Hospital of Guizhou Medical University"
+  - family-names: Xu
+    given-names: Lei
+    affiliation: "The Affiliated Hospital of Guizhou Medical University"
+  - family-names: Wang
+    given-names: Yao
+    affiliation: "The Affiliated Hospital of Guizhou Medical University"
+  - family-names: Zhu
+    given-names: Wei
+    affiliation: "The Affiliated Hospital of Guizhou Medical University"
+  - family-names: Zhang
+    given-names: Yan
+    affiliation: "The Affiliated Hospital of Guizhou Medical University"
+  - family-names: Tang
+    given-names: Yao
+    affiliation: "The Affiliated Hospital of Guizhou Medical University"
+  - family-names: Yang
+    given-names: Juan
+    orcid: "https://orcid.org/0009-0001-2081-6950"
+    affiliation: "The Affiliated Hospital of Guizhou Medical University"
+    email: "yj63yj63@163.com"
+keywords:
+  - trogocytosis
+  - colorectal cancer
+  - SCD
+  - organoid
+  - CRISPR screen
+  - DepMap
+  - single-cell RNA sequencing
+  - reproducible research
+license:
+  - MIT
+  - CC-BY-4.0

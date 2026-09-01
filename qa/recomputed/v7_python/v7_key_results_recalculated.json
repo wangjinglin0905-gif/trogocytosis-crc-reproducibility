@@ -1,0 +1,282 @@
+{
+  "organoid_anchors": [
+    {
+      "gene": "SCD",
+      "n": 85,
+      "median_lfc_recomputed": -1.14508387692216,
+      "median_lfc_stored": -1.14508387692216,
+      "official_pct_depleted": 83.52941176470588
+    },
+    {
+      "gene": "EGFR",
+      "n": 85,
+      "median_lfc_recomputed": -1.19761700637978,
+      "median_lfc_stored": -1.19761700637978,
+      "official_pct_depleted": 82.35294117647058
+    }
+  ],
+  "organoid_scd_cms": {
+    "counts": [
+      11,
+      16,
+      11,
+      14
+    ],
+    "medians": [
+      -1.24201027683514,
+      -1.13686741620663,
+      -1.33713690032878,
+      -0.998732410101818
+    ],
+    "kruskal_p": 0.3763820055113249
+  },
+  "organoid_msi": {
+    "n_msi": 15,
+    "n_mss": 70,
+    "genes": {
+      "EGFR": {
+        "gene": "EGFR",
+        "n_msi": 15,
+        "n_mss": 70,
+        "p": 0.04549219291133948,
+        "q": 0.559383853234058
+      },
+      "SCD": {
+        "gene": "SCD",
+        "n_msi": 15,
+        "n_mss": 70,
+        "p": 0.840122612034973,
+        "q": 0.8926302752871588
+      }
+    },
+    "n_fdr_lt_005": 0
+  },
+  "cross_platform": {
+    "n_full": 34,
+    "rho_full": 0.35095492742551565,
+    "p_full": 0.041840483961719556,
+    "n_legacy": 33,
+    "rho_legacy": 0.2987967914438503,
+    "p_legacy": 0.09119880506169042,
+    "anchors": {
+      "SCD": {
+        "median_crc_2d": -1.1639835954295306,
+        "pct_crc_lt_minus_1": 60.31746031746032,
+        "median_difference_crc_minus_other": -0.5097108470541621,
+        "median_difference_ci95_lo": -0.8042553951058141,
+        "median_difference_ci95_hi": -0.3220649732900232,
+        "mannwhitney_p_crc_vs_other": 1.4216413797674874e-09
+      },
+      "EGFR": {
+        "median_crc_2d": -0.2558103209015928,
+        "pct_crc_lt_minus_1": 9.523809523809524,
+        "median_difference_crc_minus_other": -0.1276073708786426,
+        "median_difference_ci95_lo": -0.2719180313023085,
+        "median_difference_ci95_hi": 0.021250590674549,
+        "mannwhitney_p_crc_vs_other": 0.0260131784901461
+      }
+    }
+  },
+  "scd_codependency": {
+    "n_genes": 16561,
+    "n_gene_fdr_lt_005": 1,
+    "target_rows": {
+      "CDX1": {
+        "raw_spearman_rho": 0.4345905804182138,
+        "qc_adjusted_rank_correlation": 0.4113522580288418,
+        "qc_adjusted_p": 9.193608446161356e-05,
+        "FDR_BH": 0.2179053848059992
+      },
+      "WLS": {
+        "raw_spearman_rho": 0.3976939613054524,
+        "qc_adjusted_rank_correlation": 0.3830005492280992,
+        "qc_adjusted_p": 0.0002971295102559,
+        "FDR_BH": 0.2894565776087067
+      },
+      "VPS72": {
+        "raw_spearman_rho": -0.4351768614422513,
+        "qc_adjusted_rank_correlation": -0.492595177156636,
+        "qc_adjusted_p": 1.6776072322898149e-06,
+        "FDR_BH": 0.0277828533739516
+      }
+    },
+    "n_hallmark_fdr_lt_005": 0,
+    "dna_repair": {
+      "raw_spearman": {
+        "pathway": "HALLMARK_DNA_REPAIR",
+        "size": 143,
+        "ES": -0.3114576028708625,
+        "NES": -1.5133092490690212,
+        "p_value": 0.0030742204655248,
+        "FDR_BH": 0.1537110232762406
+      },
+      "qc_adjusted": {
+        "pathway": "HALLMARK_DNA_REPAIR",
+        "size": 143,
+        "ES": -0.2690558587877401,
+        "NES": -1.3011727693917965,
+        "p_value": 0.0431354359925788,
+        "FDR_BH": 0.4909180166912126
+      }
+    },
+    "cholesterol_homeostasis": {
+      "raw_spearman": {
+        "pathway": "HALLMARK_CHOLESTEROL_HOMEOSTASIS",
+        "size": 68,
+        "ES": -0.2372007396917882,
+        "NES": -1.0100429407600815,
+        "p_value": 0.4238701184730145,
+        "FDR_BH": 0.7456943935507513
+      },
+      "qc_adjusted": {
+        "pathway": "HALLMARK_CHOLESTEROL_HOMEOSTASIS",
+        "size": 68,
+        "ES": -0.1938017367816498,
+        "NES": -0.8290164471724212,
+        "p_value": 0.8021015761821366,
+        "FDR_BH": 0.8899916795435635
+      }
+    }
+  },
+  "gse39582": {
+    "rfs_univariable": {
+      "n": 519,
+      "events": 145,
+      "hr": 0.9419005802440054,
+      "ci95_low": 0.7963344183121587,
+      "ci95_high": 1.1140755474871682,
+      "p": 0.48466964913234933,
+      "module_ph_p_rank_approx": 0.601365641058927,
+      "global_ph_min_p_rank_approx": 0.601365641058927
+    },
+    "rfs_adjusted": {
+      "n": 518,
+      "events": 145,
+      "hr": 1.0035198297765162,
+      "ci95_low": 0.84270447763341,
+      "ci95_high": 1.1950239680496533,
+      "p": 0.968546641504735,
+      "module_ph_p_rank_approx": 0.5144907352953696,
+      "global_ph_min_p_rank_approx": 0.13686536915972888
+    },
+    "os_analysable": false
+  },
+  "tcga": {
+    "expression_n": 592,
+    "os_univariable": {
+      "n": 566,
+      "events": 115,
+      "hr": 1.0084200810224648,
+      "ci95_low": 0.8413628019670587,
+      "ci95_high": 1.2086475149981364,
+      "p": 0.9277005177482084,
+      "module_ph_p_rank_approx": 0.8523762156465565,
+      "global_ph_min_p_rank_approx": 0.8523762156465565
+    },
+    "os_age_stage_adjusted": {
+      "n": 566,
+      "events": 115,
+      "hr": 1.034755643542931,
+      "ci95_low": 0.8625550982615797,
+      "ci95_high": 1.2413343147607685,
+      "p": 0.7129548926552762,
+      "module_ph_p_rank_approx": 0.6998255277913773,
+      "global_ph_min_p_rank_approx": 0.3230249066716736
+    }
+  },
+  "gse146771": {
+    "paired_patients": 8,
+    "mean_difference_T_minus_N": -0.0007478445451032375,
+    "exact_sign_flip_p": 0.125,
+    "tissue_counts": {
+      "N": {
+        "n_cells": 12657,
+        "candidates": 14,
+        "rate": 0.0011061072924073
+      },
+      "P": {
+        "n_cells": 20466,
+        "candidates": 0,
+        "rate": 0.0
+      },
+      "T": {
+        "n_cells": 10694,
+        "candidates": 2,
+        "rate": 0.0001870207593042
+      }
+    },
+    "threshold_candidate_range": {
+      "0.0": [
+        46,
+        56
+      ],
+      "1.0": [
+        16,
+        17
+      ],
+      "2.0": [
+        1,
+        1
+      ]
+    }
+  },
+  "gse178341": {
+    "patients": 62,
+    "mmrd": 34,
+    "mmrp": 28,
+    "cms_raw_counts": {
+      "CMS2": 23,
+      "CMS1": 17,
+      "CMS3": 14,
+      "CMS4": 8
+    },
+    "cms4_whole_p": 0.450636609883253,
+    "cms4_epithelial_p": 0.7183457032306046,
+    "correlations": {
+      "module_all_vs_TGFb_all": {
+        "rho": 0.40782151041273207,
+        "p": 0.0010013704637783479
+      },
+      "module_all_vs_EMT_all": {
+        "rho": 0.14174913751857168,
+        "p": 0.27177689125888255
+      },
+      "module_Epi_vs_TGFb_Epi": {
+        "rho": 0.22051824431517716,
+        "p": 0.08501561118725999
+      },
+      "module_Epi_vs_EMT_Epi": {
+        "rho": 0.3555941678628088,
+        "p": 0.00456381121396743
+      },
+      "module_all_vs_T_cell_fraction_all": {
+        "rho": 0.7665130568356375,
+        "p": 3.82938496771429e-13
+      },
+      "module_Epi_vs_T_cell_fraction_all": {
+        "rho": 0.5198307773664729,
+        "p": 1.4915282021681297e-05
+      }
+    },
+    "mmr_tests": {
+      "T_cell_fraction_all": {
+        "median_mmrd": 0.2587874252365455,
+        "median_mmrp": 0.16692192587473695,
+        "p": 0.005937816333359882,
+        "q": 0.0059378163333598825
+      },
+      "exhausted_label_fraction_T": {
+        "median_mmrd": 0.4046370101692558,
+        "median_mmrp": 0.0613132911392405,
+        "p": 5.725748239059384e-07,
+        "q": 1.7177244717178153e-06
+      },
+      "exhaustion_expression_TNKILC": {
+        "median_mmrd": 0.4807048616822721,
+        "median_mmrp": -0.6340573249397152,
+        "p": 0.00016348767492248143,
+        "q": 0.00024523151238372215
+      }
+    }
+  }
+}

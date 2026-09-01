@@ -1,0 +1,20 @@
+{
+  "n_models": 85,
+  "n_complete_genes": 16562,
+  "correlation": "rank correlation after residualization for genome-wide median LFC, AUC_ROC and AUC_PR",
+  "gsea_permutations": 5000,
+  "gsea_seed": 20260831,
+  "n_hallmark_sets_tested": 50,
+  "n_hallmark_fdr_lt_0_05": 0,
+  "cholesterol_homeostasis": [
+    {
+      "pathway": "HALLMARK_CHOLESTEROL_HOMEOSTASIS",
+      "size": 68,
+      "ES": -0.1938017367816495,
+      "NES": -0.8290164471724198,
+      "p_value": 0.8021015761821366,
+      "FDR_BH": 0.8899916795435635
+    }
+  ],
+  "interpretation_gate": "Use in the main text only if a prespecified membrane-lipid pathway is FDR<0.05; otherwise report as a supplemental negative/sensitivity analysis."
+}

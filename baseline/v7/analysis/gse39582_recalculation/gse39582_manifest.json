@@ -1,0 +1,39 @@
+{
+  "source": "Bioconductor curatedCRCData GSE39582_eset",
+  "source_url": "https://bioconductor.org/packages/curatedCRCData/",
+  "input_file": "EXTERNAL_INPUT/GSE39582_eset_curatedCRCData.rda",
+  "input_bytes": 80629886,
+  "input_sha256": "9201642574164e5ca5190fdc505ce34933ff8ae514a1947af3e744b08bcd74c3",
+  "expression_preprocessing": "gene-level fRMA values supplied by curatedCRCData",
+  "frozen_module": [
+    "CD4",
+    "PTPRC",
+    "CTLA4",
+    "PDCD1",
+    "HAVCR2",
+    "VSIR",
+    "LAG3",
+    "CD38"
+  ],
+  "score_definition": "mean cohort-wise z-score across eight genes, then re-standardised to 1 cohort SD",
+  "alias_policy": {
+    "VSIR": "C10orf54"
+  },
+  "primary_endpoint": "author-provided RFS event/delay in months; zero follow-up excluded",
+  "adjustment": "age, categorical TNM stage, MMR status, adjuvant chemotherapy",
+  "os_policy": "not analysed; official days_to_death and vital_status fields are empty",
+  "python": "3.12.13 (main, Aug  7 2026, 02:26:41) [MSC v.1944 64 bit (AMD64)]",
+  "endpoint_audit": {
+    "series_total_samples_reported_by_GEO": 585,
+    "tumour_expression_samples_in_curatedCRCData": 566,
+    "days_to_death_nonmissing": 0,
+    "vital_status_nonmissing": 0,
+    "author_rfs_event_nonmissing": 557,
+    "author_rfs_delay_nonmissing": 560,
+    "author_rfs_positive_time": 522,
+    "author_rfs_zero_time_excluded": 38,
+    "curated_dfs_status_nonmissing": 557,
+    "curated_days_to_recurrence_or_death_nonmissing": 560,
+    "os_conclusion": "OS cannot be independently reconstructed from this versioned official object because days_to_death and vital_status are entirely missing."
+  }
+}

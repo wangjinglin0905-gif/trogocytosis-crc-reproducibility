@@ -1,0 +1,64 @@
+{
+  "title": "Trogocytosis-CRC reproducibility package",
+  "upload_type": "software",
+  "description": "Versioned code, processed derivatives, source-data tables, quality-control records and final figures for the manuscript 'Functional screening identifies an SCD dependency while matched-null analyses expose transcriptomic limits of trogocytosis inference in colorectal cancer'. The package reproduces the reported CRC dependency, survival, matched-null, cross-cohort composition and SCD-VPS72 analyses while preserving the stated boundary that RNA measurements do not directly observe trogocytosis events.",
+  "creators": [
+    {
+      "name": "Wang, Jinglin",
+      "affiliation": "The Affiliated Hospital of Guizhou Medical University; Guizhou Provincial People's Hospital",
+      "orcid": "0000-0002-7389-1022"
+    },
+    {
+      "name": "Sun, Pan",
+      "affiliation": "The Affiliated Hospital of Guizhou Medical University"
+    },
+    {
+      "name": "Xu, Lei",
+      "affiliation": "The Affiliated Hospital of Guizhou Medical University"
+    },
+    {
+      "name": "Wang, Yao",
+      "affiliation": "The Affiliated Hospital of Guizhou Medical University"
+    },
+    {
+      "name": "Zhu, Wei",
+      "affiliation": "The Affiliated Hospital of Guizhou Medical University"
+    },
+    {
+      "name": "Zhang, Yan",
+      "affiliation": "The Affiliated Hospital of Guizhou Medical University"
+    },
+    {
+      "name": "Tang, Yao",
+      "affiliation": "The Affiliated Hospital of Guizhou Medical University"
+    },
+    {
+      "name": "Yang, Juan",
+      "affiliation": "The Affiliated Hospital of Guizhou Medical University",
+      "orcid": "0009-0001-2081-6950"
+    }
+  ],
+  "keywords": [
+    "trogocytosis",
+    "colorectal cancer",
+    "SCD",
+    "organoid",
+    "CRISPR screen",
+    "DepMap",
+    "single-cell RNA sequencing",
+    "reproducibility"
+  ],
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "version": "1.0.0",
+  "publication_date": "2026-09-02",
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/wangjinglin0905-gif/trogocytosis-crc-reproducibility",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "notes": "Supported by the National Natural Science Foundation of China (82360467) and the Science and Technology Fund Project of the Guizhou Provincial Science and Technology Program (QKH JC-ZK [2023]-358 and QKH JC-ZK [2023]-348). Third-party raw datasets are not redistributed."
+}

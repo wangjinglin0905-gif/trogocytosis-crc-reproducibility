@@ -1,0 +1,11 @@
+{
+  "panel_genes_tested": 34,
+  "n_MSI": 15,
+  "n_MSS": 70,
+  "nominal_p_lt_0_05": [
+    "HLA-DRA",
+    "EGFR",
+    "CLSTN2"
+  ],
+  "fdr_lt_0_05": []
+}

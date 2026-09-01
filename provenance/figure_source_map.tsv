@@ -1,0 +1,9 @@
+figure	generation_script	primary_processed_sources	final_prefix
+Figure 1	scripts/figures/make_v7_figures.R	baseline/v7/analysis/organoid/organoid_panel_dependency_summary.csv; baseline/v7/analysis/organoid/organoid_model_annotations.csv; baseline/v7/analysis/organoid/organoid_strata_descriptive.csv	figures/final/Fig1_organoid_dependencies_v8_1
+Figure 2	scripts/figures/make_v7_figures.R	baseline/v7/analysis/depmap_26Q1/depmap_organoid_cross_platform_panel.csv; baseline/v7/analysis/depmap_26Q1/depmap_crc_genome_dependency_rank.csv	figures/final/Fig2_DepMap_validation_v8_1
+Figure 3	scripts/figures/make_v8_1_changed_figures.R	figures/source_data/Fig3ab_SCD_codependency_v8_1.csv; figures/source_data/Fig3c_Hallmark_enrichment_v8_1.csv	figures/final/Fig3_SCD_codependency_v8_1
+Figure 4	scripts/figures/make_v8_1_changed_figures.R	figures/source_data/Fig4a_survival_forest_v8_1.csv; baseline/v7/analysis/gse39582_recalculation; baseline/v7/analysis/tcga_cbioportal_592; analysis/v8_1_corrections	figures/final/Fig4_bulk_survival_v8_1
+Figure 5	scripts/figures/make_v7_figures.R	baseline/v7/analysis/gse146771	figures/final/Fig5_leukocyte_candidates_v8_1
+Figure 6	scripts/figures/make_v8_1_changed_figures.R	baseline/v7/analysis/gse178341_recalculation	figures/final/Fig6_GSE178341_patient_level_v8_1
+Figure 7	scripts/figures/make_v8_1_changed_figures.R	figures/source_data/Fig7a_closest10_sensitivity_v8_1.csv; figures/source_data/Fig7a_matched_null_k50_v8_1.csv; figures/source_data/Fig7b_matching_balance_frozen_v8_1.csv; figures/source_data/Fig7b_matching_balance_null_v8_1.csv; figures/source_data/Fig7c_depmap_scd_vps72_v8_1.csv; figures/source_data/Fig7d_gse132465_patient_scores_v8_1.csv	figures/final/Fig7_composition_controls_and_vps72_replication_v8_1
+

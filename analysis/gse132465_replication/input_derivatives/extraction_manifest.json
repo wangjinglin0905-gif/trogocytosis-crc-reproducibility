@@ -1,0 +1,10 @@
+{
+  "source_umi": "GSE132465_GEO_processed_CRC_10X_raw_UMI_count_matrix.txt.gz",
+  "source_umi_sha256": "deff856c7fe1d2c845af5b31e1c65a1dd95ea29541772a66c89bda3aaa8c0666",
+  "source_annotation": "GSE132465_GEO_processed_CRC_10X_cell_annotation.txt.gz",
+  "source_annotation_sha256": "4bf2ebdadc88da53b0c46e654a6576e841925addc25c981d7cdbc0d988b4677c",
+  "library_size_output": "GSE132465_cell_library_sizes.tsv.gz",
+  "library_size_output_sha256": "dcbe9de1791d293d7a9ab5cbb0ae4dccdd5546b53cd5cca38c11926a29151c26",
+  "n_cells": 63689,
+  "note": "Per-cell total UMI counts derived by streaming the public GEO matrix; raw third-party files are not redistributed."
+}

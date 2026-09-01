@@ -1,0 +1,3 @@
+"platform","model","n","rho","ci95_low","ci95_high","p","interpretation","label"
+"DepMap 26Q1 CRC 2D","raw Spearman",63,-0.0877976190476191,-0.332953406866909,0.173226658354784,0.493823458241723,"descriptive replication","Raw Spearman"
+"DepMap 26Q1 CRC 2D","partial Spearman: median+MAD+common-essential PC1-5",63,-0.175051508505269,-0.466105872359286,0.0926537022704832,0.161383861613839,"not replicated","QC/common-essentiality adjusted"

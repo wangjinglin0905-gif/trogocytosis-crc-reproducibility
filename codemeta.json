@@ -1,0 +1,45 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "Trogocytosis-CRC reproducibility package",
+  "description": "Portable analysis code, processed derivatives, quality-control records, source-data tables and final figures for CRC functional-dependency and calibrated transcriptomic analyses of trogocytosis-related hypotheses.",
+  "version": "1.0.0",
+  "datePublished": "2026-09-02",
+  "codeRepository": "https://github.com/wangjinglin0905-gif/trogocytosis-crc-reproducibility",
+  "programmingLanguage": ["Python", "R"],
+  "license": [
+    "https://spdx.org/licenses/MIT.html",
+    "https://creativecommons.org/licenses/by/4.0/"
+  ],
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Jinglin",
+      "familyName": "Wang",
+      "@id": "https://orcid.org/0000-0002-7389-1022"
+    },
+    {"@type": "Person", "givenName": "Pan", "familyName": "Sun"},
+    {"@type": "Person", "givenName": "Lei", "familyName": "Xu"},
+    {"@type": "Person", "givenName": "Yao", "familyName": "Wang"},
+    {"@type": "Person", "givenName": "Wei", "familyName": "Zhu"},
+    {"@type": "Person", "givenName": "Yan", "familyName": "Zhang"},
+    {"@type": "Person", "givenName": "Yao", "familyName": "Tang"},
+    {
+      "@type": "Person",
+      "givenName": "Juan",
+      "familyName": "Yang",
+      "@id": "https://orcid.org/0009-0001-2081-6950",
+      "email": "yj63yj63@163.com"
+    }
+  ],
+  "keywords": [
+    "trogocytosis",
+    "colorectal cancer",
+    "SCD",
+    "organoid",
+    "CRISPR screen",
+    "DepMap",
+    "single-cell RNA sequencing",
+    "reproducible research"
+  ]
+}

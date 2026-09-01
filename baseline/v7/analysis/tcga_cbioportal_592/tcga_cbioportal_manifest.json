@@ -1,0 +1,87 @@
+{
+  "study_id": "coadread_tcga_pan_can_atlas_2018",
+  "molecular_profile_id": "coadread_tcga_pan_can_atlas_2018_rna_seq_v2_mrna",
+  "sample_list_id": "coadread_tcga_pan_can_atlas_2018_rna_seq_v2_mrna",
+  "frozen_genes": [
+    "CD4",
+    "PTPRC",
+    "CTLA4",
+    "PDCD1",
+    "HAVCR2",
+    "VSIR",
+    "LAG3",
+    "CD38"
+  ],
+  "score_definition": "mean cohort-wise gene z-scores after log2(RSEM+1), then module re-standardised",
+  "urls": {
+    "sample_list": "https://www.cbioportal.org/api/sample-lists/coadread_tcga_pan_can_atlas_2018_rna_seq_v2_mrna",
+    "clinical": "https://www.cbioportal.org/api/studies/coadread_tcga_pan_can_atlas_2018/clinical-data?clinicalDataType=PATIENT&projection=SUMMARY&pageSize=100000",
+    "gene_CD4": "https://www.cbioportal.org/api/genes/CD4",
+    "expression_CD4": "https://www.cbioportal.org/api/molecular-profiles/coadread_tcga_pan_can_atlas_2018_rna_seq_v2_mrna/molecular-data?sampleListId=coadread_tcga_pan_can_atlas_2018_rna_seq_v2_mrna&entrezGeneId=920&projection=SUMMARY",
+    "gene_PTPRC": "https://www.cbioportal.org/api/genes/PTPRC",
+    "expression_PTPRC": "https://www.cbioportal.org/api/molecular-profiles/coadread_tcga_pan_can_atlas_2018_rna_seq_v2_mrna/molecular-data?sampleListId=coadread_tcga_pan_can_atlas_2018_rna_seq_v2_mrna&entrezGeneId=5788&projection=SUMMARY",
+    "gene_CTLA4": "https://www.cbioportal.org/api/genes/CTLA4",
+    "expression_CTLA4": "https://www.cbioportal.org/api/molecular-profiles/coadread_tcga_pan_can_atlas_2018_rna_seq_v2_mrna/molecular-data?sampleListId=coadread_tcga_pan_can_atlas_2018_rna_seq_v2_mrna&entrezGeneId=1493&projection=SUMMARY",
+    "gene_PDCD1": "https://www.cbioportal.org/api/genes/PDCD1",
+    "expression_PDCD1": "https://www.cbioportal.org/api/molecular-profiles/coadread_tcga_pan_can_atlas_2018_rna_seq_v2_mrna/molecular-data?sampleListId=coadread_tcga_pan_can_atlas_2018_rna_seq_v2_mrna&entrezGeneId=5133&projection=SUMMARY",
+    "gene_HAVCR2": "https://www.cbioportal.org/api/genes/HAVCR2",
+    "expression_HAVCR2": "https://www.cbioportal.org/api/molecular-profiles/coadread_tcga_pan_can_atlas_2018_rna_seq_v2_mrna/molecular-data?sampleListId=coadread_tcga_pan_can_atlas_2018_rna_seq_v2_mrna&entrezGeneId=84868&projection=SUMMARY",
+    "gene_VSIR": "https://www.cbioportal.org/api/genes/VSIR",
+    "expression_VSIR": "https://www.cbioportal.org/api/molecular-profiles/coadread_tcga_pan_can_atlas_2018_rna_seq_v2_mrna/molecular-data?sampleListId=coadread_tcga_pan_can_atlas_2018_rna_seq_v2_mrna&entrezGeneId=64115&projection=SUMMARY",
+    "gene_LAG3": "https://www.cbioportal.org/api/genes/LAG3",
+    "expression_LAG3": "https://www.cbioportal.org/api/molecular-profiles/coadread_tcga_pan_can_atlas_2018_rna_seq_v2_mrna/molecular-data?sampleListId=coadread_tcga_pan_can_atlas_2018_rna_seq_v2_mrna&entrezGeneId=3902&projection=SUMMARY",
+    "gene_CD38": "https://www.cbioportal.org/api/genes/CD38",
+    "expression_CD38": "https://www.cbioportal.org/api/molecular-profiles/coadread_tcga_pan_can_atlas_2018_rna_seq_v2_mrna/molecular-data?sampleListId=coadread_tcga_pan_can_atlas_2018_rna_seq_v2_mrna&entrezGeneId=952&projection=SUMMARY"
+  },
+  "raw_files": {
+    "expression_CD38.json": {
+      "bytes": 260889,
+      "sha256": "896814adcfff5a6664c2d292c297e83a97335906f4177a7c130759b7d449e5dd"
+    },
+    "expression_CD4.json": {
+      "bytes": 261255,
+      "sha256": "feb5c48cce97e3381ed26b38a991cc14df9973453d9d2eee77d57811604606d9"
+    },
+    "expression_CTLA4.json": {
+      "bytes": 261529,
+      "sha256": "a3d0d6d5a66a546c57d8e3efec0b4718475cfbdc9b1bf52d65555a5482201d25"
+    },
+    "expression_HAVCR2.json": {
+      "bytes": 262335,
+      "sha256": "cd3cf15b6434febd6cfdc811b9a986a8ea49b5c41061399471f5d76ae7f3d29d"
+    },
+    "expression_LAG3.json": {
+      "bytes": 261622,
+      "sha256": "7df9ffb7f9256900dac9a35986d8c67a32311d6921d5b6145cbeffbb4906792d"
+    },
+    "expression_PDCD1.json": {
+      "bytes": 261483,
+      "sha256": "e4b8b1624780430b4fe53a4aa9a3b78da93971eb7361e353a4677f20a5b8b7b5"
+    },
+    "expression_PTPRC.json": {
+      "bytes": 261819,
+      "sha256": "0d1846ade36d4cede70f2893d8752b815c4862695cdae18fbcdaf4b65470b10b"
+    },
+    "expression_VSIR.json": {
+      "bytes": 262460,
+      "sha256": "4c0a7b640f31fb14a5bbdc4b119a0185c8ae3561540551361ff0a659c8e42db6"
+    },
+    "patient_clinical_long.json": {
+      "bytes": 5546442,
+      "sha256": "6a4b8b67134c0988700042aeb4ef32e659fb00e7641d6839b927658ee51ec8dc"
+    },
+    "sample_list_592.json": {
+      "bytes": 14547,
+      "sha256": "1e68029b0ea24132f26358039f69183a43e447b5f493778abf6a6caedc978ec7"
+    }
+  },
+  "sample_flow": {
+    "rna_sample_list_n": 592,
+    "unique_patients_after_mapping_n": 592,
+    "complete_8_gene_expression_n": 592,
+    "os_complete_positive_time_n": 566,
+    "os_events_n": 115,
+    "primary_tumour_code_01_n": 592
+  },
+  "python": "3.12.13 (main, Aug  7 2026, 02:26:41) [MSC v.1944 64 bit (AMD64)]"
+}

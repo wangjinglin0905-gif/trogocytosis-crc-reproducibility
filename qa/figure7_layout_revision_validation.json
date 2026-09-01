@@ -1,0 +1,63 @@
+{
+  "minimum_dpi": 300.0,
+  "files": [
+    {
+      "path": "EXTERNAL_INPUT/Fig7_composition_controls_and_vps72_replication_v8_1.png",
+      "bytes": 341833,
+      "sha256": "bb78233ba7425337a6947e224f51b65e7cbb25055d2e6d512e18e7722e1374d9",
+      "kind": "raster",
+      "format": "PNG",
+      "mode": "RGB",
+      "pixels": [
+        2125,
+        2480
+      ],
+      "dpi": [
+        300.0,
+        300.0
+      ],
+      "frames": 1,
+      "warnings": []
+    },
+    {
+      "path": "EXTERNAL_INPUT/Fig7_composition_controls_and_vps72_replication_v8_1.tiff",
+      "bytes": 830602,
+      "sha256": "69746f94c6d084275f50e5cc4b77c23fe3488ebcf035201e7109ecf196fa9a8b",
+      "kind": "raster",
+      "format": "TIFF",
+      "mode": "RGB",
+      "pixels": [
+        4251,
+        4960
+      ],
+      "dpi": [
+        600.0,
+        600.0
+      ],
+      "frames": 1,
+      "warnings": []
+    },
+    {
+      "path": "EXTERNAL_INPUT/Fig7_composition_controls_and_vps72_replication_v8_1.pdf",
+      "bytes": 76822,
+      "sha256": "f6face402e1ba0b979ce4983507f54fa2a274152d93ba40ae612812fadae6278",
+      "kind": "vector_or_mixed",
+      "format": "PDF",
+      "warnings": [
+        "Render the PDF and inspect fonts, strokes, and rasterized panels."
+      ]
+    },
+    {
+      "path": "EXTERNAL_INPUT/Fig7_composition_controls_and_vps72_replication_v8_1.svg",
+      "bytes": 504609,
+      "sha256": "b67e1251c1a281eaa4891c3fdaf0a1b4adb38cdf22b034c259535a99df238f77",
+      "kind": "vector",
+      "format": "SVG",
+      "width": "510pt",
+      "height": "595pt",
+      "viewBox": "0 0 510 595",
+      "warnings": []
+    }
+  ],
+  "note": "Automated checks do not establish scientific correctness or visual legibility."
+}

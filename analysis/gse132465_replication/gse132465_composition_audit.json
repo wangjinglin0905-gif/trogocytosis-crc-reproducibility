@@ -1,0 +1,62 @@
+{
+  "seed": 20260901,
+  "n_resamples": 10000,
+  "raw_umi": "EXTERNAL_INPUT/GSE132465_GEO_processed_CRC_10X_raw_UMI_count_matrix.txt.gz",
+  "raw_umi_sha256": "deff856c7fe1d2c845af5b31e1c65a1dd95ea29541772a66c89bda3aaa8c0666",
+  "annotation": "EXTERNAL_INPUT/GSE132465_GEO_processed_CRC_10X_cell_annotation.txt.gz",
+  "annotation_sha256": "4bf2ebdadc88da53b0c46e654a6576e841925addc25c981d7cdbc0d988b4677c",
+  "cell_library_sizes": "EXTERNAL_INPUT/GSE132465_cell_library_sizes.tsv.gz",
+  "cell_library_sizes_sha256": "dcbe9de1791d293d7a9ab5cbb0ae4dccdd5546b53cd5cca38c11926a29151c26",
+  "n_all_cells": 63689,
+  "n_tumour_cells": 47285,
+  "n_epithelial_tumour_cells": 17469,
+  "n_t_cells": 16739,
+  "n_tumour_patients": 23,
+  "cell_types_tumour": {
+    "Epithelial cells": 17469,
+    "T cells": 16739,
+    "Myeloids": 6400,
+    "B cells": 3938,
+    "Stromal cells": 2736,
+    "Mast cells": 3
+  },
+  "frozen_genes": [
+    "CD4",
+    "PTPRC",
+    "CTLA4",
+    "PDCD1",
+    "HAVCR2",
+    "VSIR",
+    "LAG3",
+    "CD38"
+  ],
+  "source_symbol_by_frozen_gene": {
+    "VSIR": "C10orf54",
+    "CD38": "CD38",
+    "CD4": "CD4",
+    "CTLA4": "CTLA4",
+    "HAVCR2": "HAVCR2",
+    "LAG3": "LAG3",
+    "PDCD1": "PDCD1",
+    "PTPRC": "PTPRC"
+  },
+  "summary": {
+    "n_patients": 23,
+    "rho_whole": 0.7351778656126482,
+    "asymptotic_p_whole": 6.434557965572447e-05,
+    "permutation_p_whole": 0.0005999400059994001,
+    "bootstrap_ci_low_whole": 0.3918071892941007,
+    "bootstrap_ci_high_whole": 0.9262948207171314,
+    "rho_epithelial": 0.3764822134387352,
+    "asymptotic_p_epithelial": 0.07661601644672121,
+    "permutation_p_epithelial": 0.08919108089191082,
+    "bootstrap_ci_low_epithelial": -0.12711338720408433,
+    "bootstrap_ci_high_epithelial": 0.7837335183077214,
+    "attenuation_abs_rho": 0.35869565217391297,
+    "attenuation_bootstrap_ci_low": -0.040757496851559764,
+    "attenuation_bootstrap_ci_high": 0.7593423019431987,
+    "strong_replication": false,
+    "compatible_replication": true
+  },
+  "interpretation": "compatible_cross_cohort_composition_replication"
+}

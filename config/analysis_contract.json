@@ -1,0 +1,59 @@
+{
+  "frozen_at": "2026-09-01T00:00:00+08:00",
+  "analysis_version": "V8.0-pre-results",
+  "seed": 20260901,
+  "central_question": "Do matched-null, independent 2D dependency and independent full-cell CRC single-cell analyses support the interpretation that the frozen mixed-marker RNA module chiefly tracks cellular composition, while SCD remains a fitness dependency rather than a demonstrated trogocytosis regulator?",
+  "frozen_module": ["CD4", "PTPRC", "CTLA4", "PDCD1", "HAVCR2", "VSIR", "LAG3", "CD38"],
+  "matched_null_gse178341": {
+    "cohort": "GSE178341",
+    "analysis_unit": "patient",
+    "population": "author-annotated tumour cells from the 62 MMR-annotated patients used in V7",
+    "primary_outcome": "Spearman rho between whole-tumour frozen-module score and author-annotation-derived T-cell fraction",
+    "module_score": "mean of gene-wise z scores from patient-level log2 CPM pseudobulk; invariant genes contribute zero after being recorded",
+    "matching_features": {
+      "mean_expression": "log1p(10000 * total tumour-cell UMI for the gene / total tumour-cell UMI across genes)",
+      "detection_rate": "fraction of tumour cells with UMI > 0",
+      "immune_lineage_specificity": "log2((TNKILC pseudobulk CPM + 0.1)/(all other tumour-cell pseudobulk CPM + 0.1))"
+    },
+    "eligible_pool": "unique non-mitochondrial, non-ribosomal gene symbols detected in at least 0.05% of tumour cells and in at least 10 patient pseudobulks, with non-zero patient-level variance; exclude the frozen module and the full prespecified trogocytosis panel",
+    "matching": "robust-z transform each feature; Euclidean nearest-neighbour matching; k=50 primary; one gene per target without replacement within each module",
+    "replicates": 10000,
+    "primary_inference": "one-sided empirical P for rho_null >= rho_observed; also report two-sided empirical P, null median, 95% interval, percentile and z score",
+    "sensitivities": ["k=25", "k=100"],
+    "failure_rule": "If the observed rho is not more extreme than the matched-null distribution, interpret the association as non-specific to the frozen module; if it is extreme, call it unusually T-lineage-coupled but still not an event-level trogocytosis marker."
+  },
+  "depmap_scd_vps72": {
+    "release": "DepMap Public 26Q1",
+    "analysis_unit": "2D cell line",
+    "crc_definition": "OncotreePrimaryDisease == Colorectal Adenocarcinoma and ModelType == Cell Line",
+    "primary_pair": ["SCD", "VPS72"],
+    "raw_model": "two-sided Spearman correlation across complete CRC cell lines",
+    "common_essential_definition": "among all 2D lines: >=90% observed values, median Chronos <= -0.5 and >=80% of values < -0.5; remove SCD and VPS72",
+    "adjustment": "rank-transform SCD and VPS72 within CRC; residualize each on genome-wide per-line median, genome-wide per-line MAD and PCs 1-5 of standardized common-essential gene effects; correlate residuals",
+    "uncertainty": "10000 cell-line bootstrap replicates plus 10000 label permutations",
+    "replication_success": "same negative direction as the frozen organoid QC-adjusted estimate, adjusted two-sided P < 0.05 and bootstrap 95% CI excluding zero",
+    "failure_rule": "Any other result is not an independent replication; positive association is directionally discordant and must not be called co-dependency."
+  },
+  "gse132465_replication": {
+    "accession": "GSE132465",
+    "eligibility_locked_before_results": [
+      "human colorectal cancer",
+      "full-cell tumour atlas containing epithelial and immune compartments",
+      "at least 10 independent tumour patients",
+      "public UMI matrix and author cell annotations",
+      "independent of GSE178341"
+    ],
+    "analysis_unit": "patient",
+    "population": "author-annotated tumour cells only",
+    "t_cell_definition": "Cell_type == T cells",
+    "whole_tumour_score": "same frozen eight-gene, gene-wise-z mean score from patient pseudobulk log2 CPM",
+    "epithelial_score": "same score within author-annotated epithelial cells; invariant genes contribute zero and are recorded",
+    "primary_test": "two-sided Spearman correlation of whole-tumour score with T-cell fraction, with 10000 patient bootstrap replicates and 10000 permutations",
+    "secondary_test": "same correlation in epithelial-only pseudobulk and paired-bootstrap attenuation |rho_all|-|rho_epithelial|",
+    "strong_replication": "rho_all > 0 with P < 0.05 and attenuation > 0.20 with bootstrap 95% CI above zero",
+    "compatible_replication": "rho_all > 0 with P < 0.05 and point attenuation > 0.20 even if its CI includes zero",
+    "failure_rule": "If whole-tumour coupling is absent or epithelial restriction does not attenuate it, do not claim cross-cohort replication of composition tracking."
+  },
+  "integration_gate": "Integrate into V8 if at least two analyses are interpretable and materially clarify the central boundary, regardless of whether their results are positive or null; all interpretable prespecified outputs remain in the supplement.",
+  "claim_ceiling": "E2 association for cross-cohort composition tracking; E1 platform replication for DepMap; no event-level, causal or treatment-efficacy claim."
+}

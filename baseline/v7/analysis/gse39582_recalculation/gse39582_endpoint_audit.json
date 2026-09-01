@@ -1,0 +1,13 @@
+{
+  "series_total_samples_reported_by_GEO": 585,
+  "tumour_expression_samples_in_curatedCRCData": 566,
+  "days_to_death_nonmissing": 0,
+  "vital_status_nonmissing": 0,
+  "author_rfs_event_nonmissing": 557,
+  "author_rfs_delay_nonmissing": 560,
+  "author_rfs_positive_time": 522,
+  "author_rfs_zero_time_excluded": 38,
+  "curated_dfs_status_nonmissing": 557,
+  "curated_days_to_recurrence_or_death_nonmissing": 560,
+  "os_conclusion": "OS cannot be independently reconstructed from this versioned official object because days_to_death and vital_status are entirely missing."
+}

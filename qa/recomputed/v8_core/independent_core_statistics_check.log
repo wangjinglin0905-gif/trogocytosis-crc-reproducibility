@@ -1,0 +1,56 @@
+Independent R recalculation of V8 core statistics
+Run UTC: 2026-09-01 22:21:47 UTC 
+
+               analysis                     statistic recomputed_in_R
+ GSE178341 matched null         observed Spearman rho      0.76721815
+ GSE178341 matched null                   null median      0.76616051
+ GSE178341 matched null         empirical one-sided P      0.49265073
+            DepMap 26Q1              raw Spearman rho     -0.08779762
+            DepMap 26Q1     adjusted partial Spearman     -0.17505151
+            DepMap 26Q1        adjusted permutation P      0.16138386
+            DepMap 26Q1     adjusted bootstrap CI low     -0.46610587
+            DepMap 26Q1    adjusted bootstrap CI high      0.09265370
+              GSE132465     whole-tumour Spearman rho      0.73517787
+              GSE132465    whole-tumour permutation P      0.00059994
+              GSE132465       epithelial Spearman rho      0.37648221
+              GSE132465      epithelial permutation P      0.08919108
+              GSE132465      absolute-rho attenuation      0.35869565
+              GSE132465  attenuation bootstrap CI low     -0.04075750
+              GSE132465 attenuation bootstrap CI high      0.75934230
+ reported_by_primary_script absolute_difference tolerance pass
+                 0.76721815        1.110223e-16     1e-10 TRUE
+                 0.76616051        0.000000e+00     1e-10 TRUE
+                 0.49265073        0.000000e+00     1e-10 TRUE
+                -0.08779762        1.387779e-17     1e-10 TRUE
+                -0.17505151        5.551115e-17     1e-10 TRUE
+                 0.16138386        0.000000e+00     1e-10 TRUE
+                -0.46610587        0.000000e+00     1e-10 TRUE
+                 0.09265370        1.387779e-17     1e-10 TRUE
+                 0.73517787        1.110223e-16     1e-10 TRUE
+                 0.00059994        0.000000e+00     1e-10 TRUE
+                 0.37648221        5.551115e-17     1e-10 TRUE
+                 0.08919108        0.000000e+00     1e-10 TRUE
+                 0.35869565        1.665335e-16     1e-10 TRUE
+                -0.04075750        0.000000e+00     1e-10 TRUE
+                 0.75934230        0.000000e+00     1e-10 TRUE
+
+Session information:
+R version 4.6.1 (2026-06-24 ucrt)
+Platform: x86_64-w64-mingw32/x64
+Running under: Windows 11 x64 (build 26200)
+
+Matrix products: default
+  LAPACK version 3.12.1
+
+locale:
+[1] C
+system code page: 65001
+
+time zone: Asia/Shanghai
+tzcode source: internal
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+loaded via a namespace (and not attached):
+[1] compiler_4.6.1

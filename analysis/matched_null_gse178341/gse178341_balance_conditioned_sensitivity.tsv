@@ -1,0 +1,2 @@
+selection	post_hoc_sensitivity	n_modules	observed_rho	null_median	null_ci95_low	null_ci95_high	observed_percentile	empirical_p_one_sided	empirical_p_two_sided	distance_cutoff
+10% smallest standardized Euclidean distance in three module-mean matching features	True	1000	0.767218151142001	0.774017274810506	0.6771562035707991	0.8429352068696331	42.9	0.5714285714285714	0.5714285714285714	1.7838054923981357

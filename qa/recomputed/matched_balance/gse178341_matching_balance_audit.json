@@ -1,0 +1,56 @@
+{
+  "primary_k": 50,
+  "n_modules": 10000,
+  "n_eligible_pool_genes_reconstructed": 21904,
+  "features": [
+    "mean_expression_log_cp10k",
+    "cell_detection_rate",
+    "tnkilc_vs_other_log2_cpm_ratio"
+  ],
+  "module_balance": [
+    {
+      "k": 50,
+      "feature": "mean_expression_log_cp10k",
+      "observed_module_mean": 0.18991548276758663,
+      "null_module_mean_median": 0.16128558634956058,
+      "null_module_mean_ci95_low": 0.13615087307770213,
+      "null_module_mean_ci95_high": 0.19052358033417188,
+      "observed_percentile": 97.31,
+      "standardized_difference_vs_null_mean": 2.00428196252128
+    },
+    {
+      "k": 50,
+      "feature": "cell_detection_rate",
+      "observed_module_mean": 0.13832404927483272,
+      "null_module_mean_median": 0.14386873131688502,
+      "null_module_mean_ci95_low": 0.12053254895024698,
+      "null_module_mean_ci95_high": 0.16653177490077778,
+      "observed_percentile": 32.940000000000005,
+      "standardized_difference_vs_null_mean": -0.46695689576843563
+    },
+    {
+      "k": 50,
+      "feature": "tnkilc_vs_other_log2_cpm_ratio",
+      "observed_module_mean": 4.012782326327498,
+      "null_module_mean_median": 3.766106464214269,
+      "null_module_mean_ci95_low": 3.459300942700221,
+      "null_module_mean_ci95_high": 4.12787979019546,
+      "observed_percentile": 90.86,
+      "standardized_difference_vs_null_mean": 1.3852968633755476
+    }
+  ],
+  "balance_conditioned_sensitivity": {
+    "selection": "10% smallest standardized Euclidean distance in three module-mean matching features",
+    "post_hoc_sensitivity": true,
+    "n_modules": 1000,
+    "observed_rho": 0.767218151142001,
+    "null_median": 0.774017274810506,
+    "null_ci95_low": 0.6771562035707991,
+    "null_ci95_high": 0.8429352068696331,
+    "observed_percentile": 42.9,
+    "empirical_p_one_sided": 0.5714285714285714,
+    "empirical_p_two_sided": 0.5714285714285714,
+    "distance_cutoff": 1.7838054923981357
+  },
+  "note": "Post-hoc balance description only; no matching or inferential parameter was changed."
+}

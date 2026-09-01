@@ -1,0 +1,10 @@
+{
+  "analysis_unit": "patient for tumor-versus-normal inference; cells are measurement units only",
+  "primary_label": "author-annotated leukocyte with CEACAM5 TPM>1 and epithelial-program score at or below the peripheral-blood 99.5th percentile",
+  "primary_epi_threshold": 1.5103924358741156,
+  "n_cells": 43817,
+  "n_primary_candidates": 16,
+  "n_candidate_patients": 4,
+  "terminology": "contamination-filtered CEACAM5-positive leukocyte candidate; not a directly observed trogocytosis event",
+  "prohibited_inference": "cell-level Fisher tests are descriptive only and are not used for cohort-level significance"
+}

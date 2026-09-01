@@ -1,0 +1,29 @@
+# Local environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.Rhistory
+.RData
+.Rproj.user/
+
+# Raw external inputs (not redistributed)
+raw/
+inputs/raw/
+external_data/
+
+# Release staging and local API material
+release/*
+!release/.gitkeep
+*.token
+.env
+
+# Regenerated bulky QA figures
+qa/recomputed/figures*/
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+*.tmp
+~$*
+

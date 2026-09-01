@@ -1,0 +1,8 @@
+numpy==2.5.2
+pandas==2.3.3
+scipy==1.18.1
+h5py==3.16.0
+requests==2.34.2
+lifelines==0.30.3
+rdata==1.1.0
+

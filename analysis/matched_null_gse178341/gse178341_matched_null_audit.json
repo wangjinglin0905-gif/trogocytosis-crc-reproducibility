@@ -1,0 +1,46 @@
+{
+  "seed": 20260901,
+  "patients": 62,
+  "tumour_cells": 257251,
+  "tnkilc_cells": 61032,
+  "unique_symbol_features_retained": 41020,
+  "raw_features": 43113,
+  "duplicate_symbol_features_excluded": 2093,
+  "eligible_pool_genes": 21904,
+  "frozen_genes": [
+    "CD4",
+    "PTPRC",
+    "CTLA4",
+    "PDCD1",
+    "HAVCR2",
+    "VSIR",
+    "LAG3",
+    "CD38"
+  ],
+  "observed_rho_complete_gene_cpm": 0.767218151142001,
+  "observed_p_complete_gene_cpm": 3.5362688996554015e-13,
+  "observed_bootstrap_ci95": [
+    0.6208761225415709,
+    0.8605789199794162
+  ],
+  "archived_v7_rho": 0.7665130568356375,
+  "archived_v7_p": 3.82938496771429e-13,
+  "new_vs_archived_score_spearman": {
+    "rho": 0.993301604089547,
+    "p": 6.028287538732925e-58
+  },
+  "matching_features": [
+    "mean_expression",
+    "cell_detection_rate",
+    "TNKILC_vs_other_specificity"
+  ],
+  "input_sha256": {
+    "h5": "f435bb2651ff5297d0c24a99daf58850ed67ae1ed6c5ef05fad48fa3f0186670",
+    "clusters": "42ed840feb62aec786f092a18ea8c0cb88d07f919df207cc8f12dc2b08e96699",
+    "metadata": "0452149b0bcff9660951de87913b82a4d72784c08d0c782e49395f756a4b9853",
+    "v7_scores": "5fb3a3c63e9a302855e5fc805b02c29a1975ba1496589e2e86677bceb007d489"
+  },
+  "python": "3.12.13",
+  "numpy": "2.5.2",
+  "pandas": "2.3.3"
+}

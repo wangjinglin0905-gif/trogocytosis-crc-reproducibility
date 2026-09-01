@@ -1,0 +1,6 @@
+V8.1 numerical correction audit
+Matched-null primary k=50: one-sided upper-tail P=0.492651; equal-tail two-sided P=0.985301; percentile=50.78.
+TCGA categorical-stage model: n=554, deaths=110, HR=1.010619, 95% CI 0.839653 to 1.216396, P=0.911053.
+TCGA PH tests: module P=0.873385; global P=0.701304.
+The matched-null correction changes only the descriptive two-sided P value; the prespecified one-sided conclusion is unchanged.
+The categorical-stage TCGA refit is concordant with the archived continuous-stage model and remains null.

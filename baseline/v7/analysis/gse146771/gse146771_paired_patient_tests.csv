@@ -1,0 +1,7 @@
+lineage,paired_patients,mean_rate_difference_T_minus_N,median_rate_difference_T_minus_N,exact_signflip_p
+All leukocytes,8,-0.0007478445451032611,-0.0006664309439114316,0.125
+B cell,7,-0.0008978272381589971,0.0,0.25
+CD4 T cell,7,-0.00021290185224611454,0.0,1.0
+CD8 T cell,6,-2.4607525876345565e-05,0.0,1.0
+ILC,7,0.0,0.0,1.0
+Myeloid cell,8,0.0012254901960784314,0.0,1.0

@@ -1,0 +1,22 @@
+{
+  "all_cells": 370115,
+  "tumour_cells_with_MMR": 257251,
+  "patients": 62,
+  "MMRd_patients": 34,
+  "MMRp_patients": 28,
+  "epithelial_cells": 113216,
+  "T_cell_definition_cells": 57362,
+  "cms_raw_calls": {
+    "CMS2": 23,
+    "CMS1": 17,
+    "CMS3": 14,
+    "CMS4": 8
+  },
+  "cms_FDR05_calls": {
+    "CMS2": 19,
+    "CMS1": 14,
+    "Unclassified": 13,
+    "CMS3": 9,
+    "CMS4": 7
+  }
+}

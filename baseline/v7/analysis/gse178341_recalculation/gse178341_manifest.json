@@ -1,0 +1,66 @@
+{
+  "analysis_unit": "patient",
+  "seed": 20260831,
+  "frozen_module": [
+    "CD4",
+    "PTPRC",
+    "CTLA4",
+    "PDCD1",
+    "HAVCR2",
+    "VSIR",
+    "LAG3",
+    "CD38"
+  ],
+  "exhausted_label_definition": "original-author TNKILC cluster label contains CXCL13 or PDCD1",
+  "cms_method": "CMScaller official templates; epithelial pseudobulk; log2(count+0.25); quantile normalization; row scaling; cosine NTP; raw call primary; 1000-permutation confidence sensitivity using a seed-locked 10000-gene null background",
+  "score_method": "mean gene-wise z scores from patient-level log2 CPM pseudobulk",
+  "inputs": {
+    "EXTERNAL_INPUT/GSE178341_crc10x_full_c295v4_submit.h5": {
+      "bytes": 1203550558,
+      "sha256": "f435bb2651ff5297d0c24a99daf58850ed67ae1ed6c5ef05fad48fa3f0186670"
+    },
+    "EXTERNAL_INPUT/GSE178341_crc10x_full_c295v4_submit_cluster.csv.gz": {
+      "bytes": 2968530,
+      "sha256": "42ed840feb62aec786f092a18ea8c0cb88d07f919df207cc8f12dc2b08e96699"
+    },
+    "EXTERNAL_INPUT/GSE178341_crc10x_full_c295v4_submit_metatables.csv.gz": {
+      "bytes": 2472848,
+      "sha256": "0452149b0bcff9660951de87913b82a4d72784c08d0c782e49395f756a4b9853"
+    },
+    "EXTERNAL_INPUT/templates.CMS.rda": {
+      "bytes": 4838,
+      "sha256": "0702b8ffa4474ad2b36e74549f6ea02f5e18a516be75da3c63b8beb2bdbf241e"
+    },
+    "EXTERNAL_INPUT/geneSets.CMS.rda": {
+      "bytes": 5047,
+      "sha256": "b8a641f431150d97db86d82c4523782efa3eded00c9a97c05c0f89ec0d93d85c"
+    },
+    "EXTERNAL_INPUT/anno.orgHs.rda": {
+      "bytes": 958742,
+      "sha256": "d41d4c818b35b975a730db1faf1ccec24dbbd5f50c34ef144631bc9fa5e3b768"
+    }
+  },
+  "sample_flow": {
+    "all_cells": 370115,
+    "tumour_cells_with_MMR": 257251,
+    "patients": 62,
+    "MMRd_patients": 34,
+    "MMRp_patients": 28,
+    "epithelial_cells": 113216,
+    "T_cell_definition_cells": 57362,
+    "cms_raw_calls": {
+      "CMS2": 23,
+      "CMS1": 17,
+      "CMS3": 14,
+      "CMS4": 8
+    },
+    "cms_FDR05_calls": {
+      "CMS2": 19,
+      "CMS1": 14,
+      "Unclassified": 13,
+      "CMS3": 9,
+      "CMS4": 7
+    }
+  },
+  "python": "3.12.13 (main, Aug  7 2026, 02:26:41) [MSC v.1944 64 bit (AMD64)]"
+}

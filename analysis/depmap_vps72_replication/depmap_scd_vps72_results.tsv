@@ -1,0 +1,4 @@
+platform	model	n	rho	ci95_low	ci95_high	p	interpretation
+CRC organoids	QC-adjusted rank correlation (V7 frozen)	85	-0.492595177156636			1.6776072322898149e-06	discovery
+DepMap 26Q1 CRC 2D	raw Spearman	63	-0.08779761904761905	-0.3329534068669088	0.17322665835478424	0.49382345824172286	descriptive replication
+DepMap 26Q1 CRC 2D	partial Spearman: median+MAD+common-essential PC1-5	63	-0.17505150850526893	-0.466105872359286	0.09265370227048318	0.1613838616138386	not replicated

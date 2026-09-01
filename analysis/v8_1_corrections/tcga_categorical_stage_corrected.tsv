@@ -1,0 +1,2 @@
+cohort	model	n	events	hr_per_sd	ci95_low	ci95_high	p	module_schoenfeld_p	global_schoenfeld_p	stage_coding	ties
+TCGA-COAD/READ via cBioPortal	OS_age_categorical_stage_adjusted	554	110	1.0106191040681	0.839653272335256	1.21639610915446	0.911052551115095	0.873385156591577	0.701303722789893	factor(I, II, III, IV)	efron
