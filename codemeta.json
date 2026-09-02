@@ -8,7 +8,6 @@
   "description": "Portable analysis code, processed derivatives, quality-control records, source-data tables and final figures for CRC functional-dependency and calibrated transcriptomic analyses of trogocytosis-related hypotheses.",
   "version": "1.0.0",
   "datePublished": "2026-09-02",
-  "codeRepository": "https://github.com/wangjinglin0905-gif/trogocytosis-crc-reproducibility",
   "programmingLanguage": ["Python", "R"],
   "license": [
     "https://spdx.org/licenses/MIT.html",
