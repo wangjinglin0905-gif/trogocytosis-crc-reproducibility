@@ -109,7 +109,7 @@ The audit checks required metadata, panel formats, unexpectedly large files, loc
 
 ## Citation
 
-Use the metadata in [CITATION.cff](CITATION.cff). A version-specific Zenodo DOI will be added after the deposition is reviewed and published.
+Use the metadata in [CITATION.cff](CITATION.cff). The immutable archive for release `v1.0.0` is available at the version-specific DOI [10.5281/zenodo.22239612](https://doi.org/10.5281/zenodo.22239612). The concept DOI [10.5281/zenodo.22239611](https://doi.org/10.5281/zenodo.22239611) resolves to the latest archived version. Cite the version-specific DOI when reproducing the analyses reported here; use the concept DOI when referring to the software package across versions.
 
 ## Licensing
 

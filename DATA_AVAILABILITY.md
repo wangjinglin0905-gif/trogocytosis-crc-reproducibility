@@ -26,5 +26,4 @@ No direct identifiers, protected health information or controlled-access genomic
 
 ## Versioning
 
-Release `v1.0.0` corresponds to manuscript analysis version V8.1. A Git commit and a version-specific Zenodo record provide immutable version references. The Zenodo DOI will be inserted after final metadata review and publication of the deposition.
-
+Release `v1.0.0` corresponds to manuscript analysis version V8.1. The immutable version-specific Zenodo record is available at [10.5281/zenodo.22239612](https://doi.org/10.5281/zenodo.22239612); the concept DOI [10.5281/zenodo.22239611](https://doi.org/10.5281/zenodo.22239611) resolves to the latest archived version. The exact Git source snapshot is tag `v1.0.0` at commit `100782c9deb39372b57a1e35cfbc6c2a52b8ac4f`.
