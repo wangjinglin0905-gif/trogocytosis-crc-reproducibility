@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-09",
+  "repository_release": "1.1.0",
+  "analysis_basis": "V8.1",
+  "manuscript_display_version": "V8.6",
+  "copied_figure_files": 28,
+  "copied_display_tables": 5,
+  "portable_display_scripts": 4,
+  "frozen_analysis_directories_unchanged_vs_HEAD": true,
+  "all_approved_figure_hashes_match": true,
+  "visual_review": "All seven current PNG figures inspected; approved content retained.",
+  "not_performed": [
+    "statistical analysis rerun",
+    "R rendering rerun",
+    "new biological analysis"
+  ],
+  "excluded": [
+    "private manuscripts",
+    "screening reports",
+    "third-party raw source files",
+    "MSigDB GMT"
+  ],
+  "zenodo_status": "new version pending; old v1.0.0 record unchanged"
+}

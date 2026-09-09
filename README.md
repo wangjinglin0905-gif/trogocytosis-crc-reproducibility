@@ -4,7 +4,7 @@ This repository contains the analysis code, processed derivatives, source-data t
 
 > **Functional screening identifies an SCD dependency while matched-null analyses expose transcriptomic limits of trogocytosis inference in colorectal cancer**
 
-The package corresponds to manuscript analysis version **V8.1** and repository release **v1.0.0** (2 September 2026).
+The frozen numerical analysis remains **V8.1**. Repository release **v1.1.0** (9 September 2026) adds the approved submission-display figures and plotting sources accompanying manuscript **V8.6**, without changing the frozen analyses. The earlier `v1.0.0` release and its Zenodo archive remain available.
 
 Canonical code repository: <https://github.com/wangjinglin0905-gif/trogocytosis-crc-reproducibility>
 
@@ -24,7 +24,8 @@ The package reproduces the reported SCD dependency, negative/attenuated RNA-prox
 | `analysis/` | Final V8/V8.1 processed results and resampling distributions |
 | `baseline/v7/analysis/` | Frozen V7 processed derivatives used by the portable recalculation scripts |
 | `config/` | Frozen analysis contract and parameters |
-| `figures/final/` | Final Figures 1–7 in PNG, TIFF, PDF and SVG |
+| `figures/frontiers_v8_6/` | Current approved submission Figures 1–7 in PNG, TIFF, PDF and SVG |
+| `figures/final/` | Preserved historical v1.0.0 figure exports; not the current submission display set |
 | `figures/source_data/` | Plot-level source-data tables for corrected/extended figures |
 | `methods/` | Analysis contracts and argument/terminology ledger |
 | `provenance/` | External-source manifest, figure-to-source map and release file manifest |
@@ -76,7 +77,9 @@ The independent core-statistics check is expected to report **15/15 PASS**. The 
 
 ## Figure regeneration
 
-Figures 1–6 from the frozen V7 derivatives:
+For the current approved display set, see [the current figure map and commands](provenance/frontiers_v8_6_figures.md). Exact distributed image hashes are listed in `provenance/frontiers_v8_6_assets.tsv`. Figures were not redrawn during the V8.6 wording revision.
+
+Historical v1.0.0 Figures 1–6 from the frozen V7 derivatives:
 
 ```bash
 Rscript scripts/figures/make_v7_figures.R baseline/v7 qa/recomputed/figures_v7
@@ -102,14 +105,14 @@ Before a release, run:
 
 ```bash
 python scripts/validation/audit_public_release.py --root . --out qa/public_release_audit.json
-python scripts/validation/build_release_archive.py --root . --version 1.0.0
+python scripts/validation/build_release_archive.py --root . --version 1.1.0
 ```
 
 The audit checks required metadata, panel formats, unexpectedly large files, local absolute paths, common credential patterns, symlinks and excluded raw source files. The archive builder writes a file-level SHA-256 manifest and a deterministic ZIP under `release/`.
 
 ## Citation
 
-Use the metadata in [CITATION.cff](CITATION.cff). The immutable archive for release `v1.0.0` is available at the version-specific DOI [10.5281/zenodo.22239612](https://doi.org/10.5281/zenodo.22239612). The concept DOI [10.5281/zenodo.22239611](https://doi.org/10.5281/zenodo.22239611) resolves to the latest archived version. Cite the version-specific DOI when reproducing the analyses reported here; use the concept DOI when referring to the software package across versions.
+Use the metadata in [CITATION.cff](CITATION.cff) and cite the exact version used. The GitHub snapshot for `v1.1.0` is identified by its release URL. Its new Zenodo version is pending; no new DOI is claimed. The immutable analysis-baseline archive for `v1.0.0` remains [10.5281/zenodo.22239612](https://doi.org/10.5281/zenodo.22239612). The concept DOI [10.5281/zenodo.22239611](https://doi.org/10.5281/zenodo.22239611) refers to the archive series, not evidence that v1.1.0 has already been archived.
 
 ## Licensing
 
@@ -121,4 +124,4 @@ Use the metadata in [CITATION.cff](CITATION.cff). The immutable archive for rele
 
 Correspondence: Juan Yang, MD, PhD — `yj63yj63@163.com`.
 
-This work was supported by the National Natural Science Foundation of China (No. 82360467) and the Science and Technology Fund Project of the Guizhou Provincial Science and Technology Program (Nos. QKH JC-ZK [2023]-358 and QKH JC-ZK [2023]-348). The funders had no role in the review design, interpretation, manuscript preparation or decision to submit the manuscript.
+This work was supported by the National Natural Science Foundation of China (No. 82360467) and the Science and Technology Fund Project of the Guizhou Provincial Science and Technology Program (Nos. QKH JC-ZK [2023]-358 and QKH JC-ZK [2023]-348). The funders had no role in the study design, data collection or analysis, interpretation of the results, manuscript preparation, or decision to submit the manuscript.

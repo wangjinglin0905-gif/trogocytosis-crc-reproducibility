@@ -26,4 +26,6 @@ No direct identifiers, protected health information or controlled-access genomic
 
 ## Versioning
 
+Release `v1.1.0` adds approved submission-display figures and portable plotting sources accompanying manuscript V8.6; the numerical basis remains V8.1. Its exact GitHub snapshot is identified by tag `v1.1.0`. A new version of the existing Zenodo archive is pending; the older DOI below must not be described as the archive for the new display release. No manuscript text or private screening report is included.
+
 Release `v1.0.0` corresponds to manuscript analysis version V8.1. The immutable version-specific Zenodo record is available at [10.5281/zenodo.22239612](https://doi.org/10.5281/zenodo.22239612); the concept DOI [10.5281/zenodo.22239611](https://doi.org/10.5281/zenodo.22239611) resolves to the latest archived version. The exact Git source snapshot is tag `v1.0.0` at commit `100782c9deb39372b57a1e35cfbc6c2a52b8ac4f`.

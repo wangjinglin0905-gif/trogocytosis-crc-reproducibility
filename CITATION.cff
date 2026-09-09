@@ -2,17 +2,14 @@ cff-version: 1.2.0
 message: "If you use this code or its processed derivatives, please cite this software release and the associated manuscript."
 title: "Trogocytosis-CRC reproducibility package"
 type: software
-version: 1.0.0
-date-released: 2026-09-02
+version: 1.1.0
+date-released: 2026-09-09
 repository-code: "https://github.com/wangjinglin0905-gif/trogocytosis-crc-reproducibility"
-url: "https://github.com/wangjinglin0905-gif/trogocytosis-crc-reproducibility"
+url: "https://github.com/wangjinglin0905-gif/trogocytosis-crc-reproducibility/releases/tag/v1.1.0"
 identifiers:
   - type: doi
-    value: "10.5281/zenodo.22239612"
-    description: "Version-specific DOI for release v1.0.0"
-  - type: doi
     value: "10.5281/zenodo.22239611"
-    description: "Concept DOI for all archived versions"
+    description: "Archive-series concept DOI; v1.1.0 Zenodo deposit is pending"
 abstract: >-
   Reproducibility package for functional dependency screening and calibrated
   transcriptomic inference of trogocytosis-related hypotheses in colorectal
