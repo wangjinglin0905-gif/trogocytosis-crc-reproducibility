@@ -2,8 +2,11 @@
   "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
   "@type": "SoftwareSourceCode",
   "name": "Trogocytosis-CRC reproducibility package",
-  "identifier": "https://github.com/wangjinglin0905-gif/trogocytosis-crc-reproducibility/releases/tag/v1.1.0",
-  "sameAs": "https://doi.org/10.5281/zenodo.22239611",
+  "identifier": "https://doi.org/10.5281/zenodo.22669531",
+  "sameAs": [
+    "https://github.com/wangjinglin0905-gif/trogocytosis-crc-reproducibility/releases/tag/v1.1.0",
+    "https://doi.org/10.5281/zenodo.22239611"
+  ],
   "codeRepository": "https://github.com/wangjinglin0905-gif/trogocytosis-crc-reproducibility",
   "description": "Portable analysis code, processed derivatives, quality-control records, source-data tables and final figures for CRC functional-dependency and calibrated transcriptomic analyses of trogocytosis-related hypotheses.",
   "version": "1.1.0",

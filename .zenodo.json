@@ -51,6 +51,7 @@
   "access_right": "open",
   "license": "cc-by-4.0",
   "version": "1.1.0",
+  "doi": "10.5281/zenodo.22669531",
   "publication_date": "2026-09-09",
   "language": "eng",
   "related_identifiers": [
@@ -60,5 +61,5 @@
       "scheme": "url"
     }
   ],
-  "notes": "Supported by the National Natural Science Foundation of China (82360467) and the Science and Technology Fund Project of the Guizhou Provincial Science and Technology Program (QKH JC-ZK [2023]-358 and QKH JC-ZK [2023]-348). Third-party raw datasets are not redistributed. Code components are licensed under the MIT License; original documentation, derived data tables and figures are licensed under CC BY 4.0. This file prepares a new version of the existing Zenodo record, not a separate archive series."
+  "notes": "Supported by the National Natural Science Foundation of China (82360467) and the Science and Technology Fund Project of the Guizhou Provincial Science and Technology Program (QKH JC-ZK [2023]-358 and QKH JC-ZK [2023]-348). Third-party raw datasets are not redistributed. Code components are licensed under the MIT License; original documentation, derived data tables and figures are licensed under CC BY 4.0. Version 1.1.0 is published within the existing Zenodo concept series 10.5281/zenodo.22239611. This DOI metadata follow-up preserves the release ZIP and tag."
 }

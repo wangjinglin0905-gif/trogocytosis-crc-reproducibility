@@ -112,7 +112,9 @@ The audit checks required metadata, panel formats, unexpectedly large files, loc
 
 ## Citation
 
-Use the metadata in [CITATION.cff](CITATION.cff) and cite the exact version used. The GitHub snapshot for `v1.1.0` is identified by its release URL. Its new Zenodo version is pending; no new DOI is claimed. The immutable analysis-baseline archive for `v1.0.0` remains [10.5281/zenodo.22239612](https://doi.org/10.5281/zenodo.22239612). The concept DOI [10.5281/zenodo.22239611](https://doi.org/10.5281/zenodo.22239611) refers to the archive series, not evidence that v1.1.0 has already been archived.
+Use the metadata in [CITATION.cff](CITATION.cff) and cite the exact version used. Release `v1.1.0` is archived at [10.5281/zenodo.22669531](https://doi.org/10.5281/zenodo.22669531); its GitHub source snapshot is tag `v1.1.0`. The immutable analysis-baseline archive for `v1.0.0` remains [10.5281/zenodo.22239612](https://doi.org/10.5281/zenodo.22239612). The concept DOI [10.5281/zenodo.22239611](https://doi.org/10.5281/zenodo.22239611) refers to the cross-version archive series.
+
+The release ZIP was built before Zenodo assigned the new DOI, so its embedded citation documents retain the pre-publication status. This metadata-only follow-up corrects the current repository and release note without replacing the ZIP or moving either tag. `provenance/file_manifest.tsv` in the current checkout describes the updated checkout; the immutable ZIP retains its own original manifest.
 
 ## Licensing
 

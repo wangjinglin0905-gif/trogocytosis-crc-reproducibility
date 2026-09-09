@@ -6,10 +6,11 @@ version: 1.1.0
 date-released: 2026-09-09
 repository-code: "https://github.com/wangjinglin0905-gif/trogocytosis-crc-reproducibility"
 url: "https://github.com/wangjinglin0905-gif/trogocytosis-crc-reproducibility/releases/tag/v1.1.0"
+doi: "10.5281/zenodo.22669531"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.22239611"
-    description: "Archive-series concept DOI; v1.1.0 Zenodo deposit is pending"
+    description: "Archive-series concept DOI covering all versions; cite the version DOI above for v1.1.0"
 abstract: >-
   Reproducibility package for functional dependency screening and calibrated
   transcriptomic inference of trogocytosis-related hypotheses in colorectal
