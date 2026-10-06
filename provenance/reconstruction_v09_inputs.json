@@ -1,0 +1,29 @@
+{
+  "inputs": {
+    "selected": {
+      "sha256": "4ea1988c23a9fe651aa62360d0c0be4125b90798750a3a3a4d3df2b1472c2d3c",
+      "bytes": 15022,
+      "filename": "organoid_selected_libraries.csv"
+    },
+    "lfc": {
+      "sha256": "6e052804af6fcf9cba3b5c35f65b68c919ef49bd7d426ade9a99b10185f78a9b",
+      "bytes": 221164585,
+      "filename": "supplementary_table_6_revision.csv"
+    },
+    "model": {
+      "sha256": "ea4e0b2a3bc806f81df62689a5ae75f1a100135727a3d7b8a4c7ccc8815183f8",
+      "bytes": 697455,
+      "filename": "Model.csv"
+    },
+    "effect": {
+      "sha256": "e610a4cefb13a82b5b256b47eb08b63ff14843f8dbd0fb164bc0a32688e5b89e",
+      "bytes": 440646050,
+      "filename": "CRISPRGeneEffect.csv"
+    }
+  },
+  "python": "3.12.14",
+  "numpy": "2.4.6",
+  "pandas": "2.3.3",
+  "scipy": "1.18.0",
+  "script_sha256": "17cf0d596386c2149430077bf25f3306d6e76a41dd4f053789e1a0aa289ead99"
+}

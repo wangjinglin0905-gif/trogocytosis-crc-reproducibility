@@ -1,3 +1,9 @@
+# Trogocytosis-CRC reproducibility package — v1.2.0
+
+Current release for manuscript V09.3: [reconstruction guide](README_RECONSTRUCTION.md). Version DOI: https://doi.org/10.5281/zenodo.23183934. The guide identifies current figures, corrected analyses and Tables S1–S10; the following documentation describes the retained earlier baseline and is not the current figure index.
+
+## Historical baseline documentation (v1.1.0)
+
 # Trogocytosis–CRC reproducibility package
 
 This repository contains the analysis code, processed derivatives, source-data tables, quality-control records and final figures for the manuscript:

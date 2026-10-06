@@ -1,0 +1,47 @@
+[
+  {
+    "pmid": "40865938",
+    "title": "Comprehensive pan-cancer analysis of genomics and clinical characteristics of trogocytosis.",
+    "journal": "International Journal of Surgery",
+    "date": "2026;112(1):1950–1952 (online 2025-08-25)",
+    "ids": {
+      "doi": "10.1097/JS9.0000000000003293"
+    }
+  },
+  {
+    "pmid": "29949776",
+    "title": "Neutrophils Kill Antibody-Opsonized Cancer Cells by Trogoptosis.",
+    "journal": "Cell Reports",
+    "date": "2018;23(13):3946–3959.e6",
+    "ids": {
+      "doi": "10.1016/j.celrep.2018.05.082"
+    }
+  },
+  {
+    "pmid": "37500885",
+    "title": "CTLA-4 tail fusion enhances CAR-T antitumor immunity.",
+    "journal": "Nature Immunology",
+    "date": "2023;24:1499–1510",
+    "ids": {
+      "doi": "10.1038/s41590-023-01571-5"
+    }
+  },
+  {
+    "pmid": "33795251",
+    "title": "Mesothelin-Specific CAR T Cells Target Ovarian Cancer.",
+    "journal": "Cancer Research",
+    "date": "2021;81(11):3022–3035",
+    "ids": {
+      "doi": "10.1158/0008-5472.CAN-20-2701"
+    }
+  },
+  {
+    "pmid": "31367043",
+    "title": "CD24 signalling through macrophage Siglec-10 is a target for cancer immunotherapy.",
+    "journal": "Nature",
+    "date": "2019;572:392–396",
+    "ids": {
+      "doi": "10.1038/s41586-019-1456-0"
+    }
+  }
+]

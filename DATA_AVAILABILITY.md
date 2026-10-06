@@ -1,3 +1,9 @@
+# Current reconstruction release
+
+Code and processed derivatives for manuscript V09.3 are in release v1.2.0, https://doi.org/10.5281/zenodo.23183934 (series https://doi.org/10.5281/zenodo.22239611). The current guide is README_RECONSTRUCTION.md; Tables S1–S10 are under supplement/v09_3. Raw inputs and GMT files are not redistributed.
+
+## Retained original source information
+
 # Data availability and provenance
 
 ## Public source data

@@ -1,0 +1,102 @@
+{
+  "reason": "Four-anchor Hallmark analysis with self-gene exclusion, same-sign plus-one nominal P and BH correction; separate from the original 2023.2-labelled SCD analysis.",
+  "inputs": [
+    {
+      "filename": "MSigDB_Hallmark_2020.gmt",
+      "sha256": "4275592957a1587652092bb398cf77216fde5b8daa2aedaa0e016f7d10bbdb81",
+      "bytes": 44235
+    },
+    {
+      "filename": "organoid_all_anchors.csv.gz",
+      "sha256": "55e9e0cd7acb7cf3669c8ea1a59b43a8c3a4bb5c15d6262e90567458da32ccd5",
+      "bytes": 3767356
+    }
+  ],
+  "python": "3.12.14",
+  "numpy": "2.4.6",
+  "seed": 42,
+  "permutations": 5000,
+  "status": "completed",
+  "elapsed_seconds": 21.293355703353882,
+  "sets": 50,
+  "anchors": 4,
+  "rows": 200,
+  "checks": [
+    {
+      "anchor": "SCD",
+      "n_sets": 50,
+      "minimum_BH_q": 0.49526270456503013,
+      "n_BH_lt_005": 0,
+      "top": {
+        "anchor": "SCD",
+        "pathway": "Hypoxia",
+        "size": 187,
+        "ES": 0.25476181470889925,
+        "NES": 1.2520578603863852,
+        "p_nominal": 0.06520972858653508,
+        "same_sign_null_n": 2836,
+        "extreme_n": 184,
+        "ranking_n": 16561,
+        "q_BH_within_anchor": 0.49526270456503013
+      }
+    },
+    {
+      "anchor": "CH25H",
+      "n_sets": 50,
+      "minimum_BH_q": 0.41641879833432477,
+      "n_BH_lt_005": 0,
+      "top": {
+        "anchor": "CH25H",
+        "pathway": "Adipogenesis",
+        "size": 184,
+        "ES": -0.30417056475607296,
+        "NES": -1.4626355390799395,
+        "p_nominal": 0.008328375966686495,
+        "same_sign_null_n": 3361,
+        "extreme_n": 27,
+        "ranking_n": 16561,
+        "q_BH_within_anchor": 0.41641879833432477
+      }
+    },
+    {
+      "anchor": "ATF3",
+      "n_sets": 50,
+      "minimum_BH_q": 0.2574102964118565,
+      "n_BH_lt_005": 0,
+      "top": {
+        "anchor": "ATF3",
+        "pathway": "Adipogenesis",
+        "size": 184,
+        "ES": -0.27551020112420954,
+        "NES": -1.3996587297487069,
+        "p_nominal": 0.009309967141292442,
+        "same_sign_null_n": 1825,
+        "extreme_n": 16,
+        "ranking_n": 16561,
+        "q_BH_within_anchor": 0.2574102964118565
+      }
+    },
+    {
+      "anchor": "FADS2",
+      "n_sets": 50,
+      "minimum_BH_q": 0.22113022113022116,
+      "n_BH_lt_005": 0,
+      "top": {
+        "anchor": "FADS2",
+        "pathway": "Myc Targets V2",
+        "size": 52,
+        "ES": -0.4249978321091271,
+        "NES": -1.7443620355882705,
+        "p_nominal": 0.004422604422604423,
+        "same_sign_null_n": 2034,
+        "extreme_n": 8,
+        "ranking_n": 16561,
+        "q_BH_within_anchor": 0.22113022113022116
+      }
+    }
+  ],
+  "sparse_dense_ES": "all 200 observed scores agree within 1e-11",
+  "GMT_claim": "Local Hallmark 2020-labelled GMT; no verified equivalence to 2023.2; not redistributed",
+  "correction": "BH of plus-one same-sign nominal P values, not pooled-NES GSEA FDR",
+  "script_sha256": "f56749e558bd3f77732b9f0f4617c6560334ae04e3f44bf2178d060411781bfa"
+}

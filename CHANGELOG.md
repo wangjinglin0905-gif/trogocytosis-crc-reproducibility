@@ -1,3 +1,7 @@
+# v1.2.0 — 2026-10-06
+
+Corrected four-anchor inference and independent checks; separate Hallmark exploration; S1 provenance annotation; S2–S10 complete data; approved reconstructed figures. New archive, no old release/tag replacement. No unpublished manuscript or private editorial material. See README_RECONSTRUCTION.md for the boundaries of verification.
+
 # Changelog
 
 ## v1.1.0 — 2026-09-09

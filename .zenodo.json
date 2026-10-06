@@ -1,7 +1,7 @@
 {
-  "title": "Trogocytosis-CRC reproducibility package",
+  "title": "Trogocytosis-CRC reproducibility package: RNA-readout calibration and functional-genomic context",
   "upload_type": "software",
-  "description": "Versioned code, processed derivatives, source-data tables, quality-control records and final figures for the manuscript 'Functional screening identifies an SCD dependency while matched-null analyses expose transcriptomic limits of trogocytosis inference in colorectal cancer'. The package reproduces the reported CRC dependency, survival, matched-null, cross-cohort composition and SCD-VPS72 analyses while preserving the stated boundary that RNA measurements do not directly observe trogocytosis events.",
+  "description": "<p>Versioned analysis code, processed derivatives, source-data tables and approved figures supporting the study \"Cellular composition and the interpretation of candidate RNA readouts of trogocytosis in colorectal cancer\" (manuscript V09.3). The release adds the corrected four-anchor co-dependency analyses and multiple-testing families, independent DepMap checks, a separately labelled four-anchor Hallmark exploration, full S1鈥揝10 tables, and the current four main and four supplementary figures. Table S1 distinguishes experimental transfer evidence, biological context, exploratory transcriptomic associations and retrospective source annotation. These data do not directly measure trogocytosis events. Compared with manuscript V09.2, V09.3 changes provenance annotation only; the numerical results and approved figures are unchanged.</p><p>Earlier baseline analyses and figures are retained for traceability. Third-party raw datasets and MSigDB GMT files are not redistributed; users must obtain the required versions under their source terms. Unpublished manuscripts, private editorial correspondence, credentials and screening reports are excluded. See README_RECONSTRUCTION.md for entry points, input hashes, reproduction limits and dependencies. GitHub release: https://github.com/wangjinglin0905-gif/trogocytosis-crc-reproducibility/releases/tag/v1.2.0.</p><p>Code components are licensed under the MIT License; original documentation, derived data tables and figures are licensed under CC BY 4.0.</p>",
   "creators": [
     {
       "name": "Wang, Jinglin",
@@ -50,13 +50,13 @@
   ],
   "access_right": "open",
   "license": "cc-by-4.0",
-  "version": "1.1.0",
-  "doi": "10.5281/zenodo.22669531",
-  "publication_date": "2026-09-09",
+  "version": "1.2.0",
+  "doi": "10.5281/zenodo.23183934",
+  "publication_date": "2026-10-06",
   "language": "eng",
   "related_identifiers": [
     {
-      "identifier": "https://github.com/wangjinglin0905-gif/trogocytosis-crc-reproducibility",
+      "identifier": "https://github.com/wangjinglin0905-gif/trogocytosis-crc-reproducibility/releases/tag/v1.2.0",
       "relation": "isSupplementTo",
       "scheme": "url"
     }
